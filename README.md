@@ -2,7 +2,7 @@
 # This is TangJin.
 > #### Who is he?
 ```java
-Human TangJin = new Human("TangJin");
+Human TangJin = new Human("TangJin", Gender.MAN);
 
 TangJin.from = "Taiwan";
 TangJin.work.add(Work.SOFTWARE_ENGINEER);
