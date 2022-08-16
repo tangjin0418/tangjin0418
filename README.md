@@ -1,16 +1,16 @@
-### Hi there 👋
+# who.md
+# This is TangJin.
+> #### Who is he?
+```java
+Human TangJin = new Human("TangJin");
 
-<!--
-**tangjin0418/tangjin0418** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+TangJin.from = "Taiwan";
+TangJin.work.add(Work.SOFTWARE_ENGINEER);
 
-Here are some ideas to get you started:
+TangJin.hobby.add("coding");
+TangJin.hobby.add("mountain-climing");
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+TangJin.data.codingOn.addAll(List.of("Java", "JavaScript", "HTML", "CSS"));
+
+TangJin.works.addAll(List.of(new MinecraftServer("RainyNight"), new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new Group("TJPlugin")));
+```
