@@ -11,9 +11,10 @@ TangJin.hobby.add("coding");
 TangJin.hobby.add("traveling");
 TangJin.hobby.add("mountain-climing");
 
-TangJin.data.codingOn.addAll(List.of("Java", "JavaScript", "HTML", "CSS", "Python"));
+TangJin.data.codingOn.addAll(List.of("Java", "JavaScript", "HTML", "CSS", "Python", "PHP", "C++"));
 
-TangJin.works.addAll(List.of(new MinecraftServer("RainyNight"), new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new Group("TJPlugin")));
+TangJin.works.addAll(List.of(new MinecraftServer("RainyNight"), new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new Group("TJService")));
 
-TangJin.say("I will never give up though I still have a far way to reach home.")
+TangJin.say("I will never give up though I still have a far way to reach home.");
+TangJin.go("https://tjdev.org");
 ```
