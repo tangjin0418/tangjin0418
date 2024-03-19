@@ -4,14 +4,15 @@
 ```java
 Human TangJin = new Human("TangJin", Gender.MALE);
 
-TangJin.from = "Taiwan";
-TangJin.work.add(Work.SOFTWARE_ENGINEER);
+TangJin.setFrom("Taiwan");
+TangJin.addWork(Work.SOFTWARE_ENGINEER);
 
-TangJin.hobby.add("coding");
-TangJin.hobby.add("traveling");
-TangJin.hobby.add("mountain-climing");
+TangJin.addHobby("coding");
+TangJin.addHobby("traveling");
+TangJin.addHobby("biking");
+TangJin.addHobby("mountain-climing");
 
-TangJin.data.codingOn.addAll(List.of("Java", "JavaScript", "HTML", "CSS", "Python", "PHP", "C++"));
+TangJin.data.codingOn.addAll(List.of("Java", "JavaScript", "HTML", "CSS", "Python", "PHP", "C++", "C#", "Python"));
 
 TangJin.works.addAll(List.of(new MinecraftServer("RainyNight"), new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new Group("TJService")));
 
