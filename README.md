@@ -1,21 +1,21 @@
 # who.md
 # This is TangJin.
-> #### Who is he?
+> #### Who is he? He is the following, introduced with random code...
 ```java
 Human TangJin = new Human("TangJin", Gender.MALE);
 
-TangJin.setFrom("Taiwan");
-TangJin.addWork(Work.SOFTWARE_ENGINEER);
+TangJin.setFrom(Country.find("TAIWAN"));
+TangJin.addWork(Career.SOFTWARE_ENGINEER);
 
-TangJin.addHobby("coding");
-TangJin.addHobby("traveling");
-TangJin.addHobby("biking");
-TangJin.addHobby("mountain-climing");
+TangJin.addHobby(Hobby.CODING);
+TangJin.addHobby(Hobby.TRAVELLING);
+TangJin.addHobby(Hobby.BIKING);
+TangJin.addHobby(Hobby.MOUNTAIN_CLIMBING);
 
-TangJin.data.codingOn.addAll(List.of("Java", "JavaScript", "HTML", "CSS", "Python", "PHP", "C++", "C#", "Python"));
+TangJin.data.workingOn.addAll(List.of("Kotlin", "Java", "JavaScript", "HTML", "CSS", "Python", "PHP", "C++", "C#", "Python"));
 
-TangJin.works.addAll(List.of(new MinecraftServer("RainyNight"), new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new Group("TJService")));
+TangJin.works.addAll(List.of(new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new MinecraftPlugin("Velocity"), new Group("TJService")));
 
-TangJin.say("I will never give up though I still have a far way to reach home.");
-TangJin.go("https://tjdev.org");
+TangJin.think("I will never give up, though there is still a far way to reach home.");
+TangJin.go("https://tjdev.org/");
 ```
