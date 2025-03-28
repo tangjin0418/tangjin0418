@@ -18,5 +18,7 @@ TangJin.addHobby(Hobby.SELF_EXPLORING);
 TangJin.setWorks(List.of(new MinecraftPlugin("BungeeCord"), new MinecraftPlugin("Spigot"), new MinecraftPlugin("Velocity"), new Group("TJService")));
 
 TangJin.think("I will never give up, though there is still a far way to reach home.");
+TangJin.discord("@tangjin.equals.to.tj");
+TangJin.email("helloworld@tjdev.org");
 TangJin.go("https://tjdev.org/");
 ```
